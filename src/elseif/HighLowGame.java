@@ -31,7 +31,8 @@ public class HighLowGame {
 				// 7. if the guess is high
 				// 8. Tell them it's too high
 			} else if (sn> random) {
-			JOptionPane.showInputDialog(null, "Your number is too high. Try again");  
+			JOptionPane.showInputDialog(null, "Your number is too high. Try again"); 
+			 
 			} else if (sn< random) {
 				JOptionPane.showInputDialog(null, "Your number is too low. Try Again");
 				// 9. if the guess is low
